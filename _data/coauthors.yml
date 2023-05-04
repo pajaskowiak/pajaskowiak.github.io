@@ -3,9 +3,13 @@
     url: https://scholar.google.com.br/citations?user=jh1yfPIAAAAJ&hl=pt-BR
 
 "Costa":
-  - firstname: ["Ivan", "Ivan G.", "I.", "I. G."]
+  - firstname: ["Ivan", "Ivan G.", "I.", "I. G.", "Ivan Gesteira"]
     url: https://scholar.google.com.br/citations?user=4b3dIOsAAAAJ&hl=pt-BR
 
 "Jaskowiak":
   - firstname: ["Pablo Andretta", "Pablo A", "Pablo A.", "P. A."]
     url: https://scholar.google.com/citations?user=by6xRbkAAAAJ
+
+"Birken":
+  - firstname: ["Michael"]
+    url: https://meatfighter.com/
