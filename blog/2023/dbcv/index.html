@@ -18,10 +18,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>A long announcement with details | Pablo  Andretta Jaskowiak</title>
+    <title>dbcv | Pablo  Andretta Jaskowiak</title>
     <meta name="author" content="Pablo  Andretta Jaskowiak">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="density-based clustering validation">
     <meta name="keywords" content="cluster, cluster analysis, clustering">
 
 
@@ -47,7 +46,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://pajaskowiak.github.io/news/announcement_2/">
+    <link rel="canonical" href="https://pajaskowiak.github.io/blog/2023/dbcv/">
 
     <!-- Dark Mode -->
     
@@ -86,8 +85,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Other pages -->
@@ -136,10 +135,26 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">A long announcement with details</h1>
-    <p class="post-meta">November 7, 2015</p>
+    <h1 class="post-title">dbcv</h1>
+    <p class="post-meta">May 3, 2023</p>
     <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/clustering">
+          <i class="fas fa-hashtag fa-sm"></i> clustering</a>  
+          <a href="/blog/tag/dbcv">
+          <i class="fas fa-hashtag fa-sm"></i> dbcv</a>  
+          <a href="/blog/tag/density-based">
+          <i class="fas fa-hashtag fa-sm"></i> density-based</a>  
+          <a href="/blog/tag/validation">
+          <i class="fas fa-hashtag fa-sm"></i> validation</a>  
+          <a href="/blog/tag/matlab">
+          <i class="fas fa-hashtag fa-sm"></i> matlab</a>  
+          
+        ·  
+        <a href="/blog/category/code">
+          <i class="fas fa-tag fa-sm"></i> code</a>  
+          
 
     </p>
   </header>
@@ -147,35 +162,125 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.</p>
+      <style>body {text-align: justify}</style>
 
-<hr>
+<p>In order to validate density-based clustering results, relative CVIs, such as Silhouette and Dunn cannot be directly applied. Simply put, such indices are based on distances between objects, not taking density information into account. Density-Based Clustering Validation (DBCV) is a relative validity criterion that can be applied in such a scenario. DBCV can be employed to select the best configuration of parameters for DBSCAN, for instance. The measure is described <a href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+<p>If you want to use the measure, Matlab source code for DBCV provided <a href="https://github.com/pajaskowiak/dbcv" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
-<h4 id="hipster-list">Hipster list</h4>
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+<p>The synthetic data sets used in the paper (shown below), are also available in the github repository.</p>
 
-<p>Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<hr>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/dataset_1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/dataset_1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/dataset_1-1400.webp"></source>
+    
 
-<p>Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.</p>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/dataset_1.png" class="img-fluid rounded z-depth-10" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-<blockquote>
-  <p>We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-—Anais Nin</p>
-</blockquote>
+  </picture>
 
-<p>Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.</p>
+</figure>
 
     </div>
-  </article>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/dataset_2-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/dataset_2-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/dataset_2-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/dataset_2.png" class="img-fluid rounded z-depth-10" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/dataset_3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/dataset_3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/dataset_3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/dataset_3.png" class="img-fluid rounded z-depth-10" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/dataset_4-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/dataset_4-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/dataset_4-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/dataset_4.png" class="img-fluid rounded z-depth-10" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<div class="caption">
+    Synthetic data sets from the original DBCV paper.
+</div>
+
+<p>Enjoy!</p>
+
+
+    </div>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "pajaskowiak/pajaskowiak.github.io",
+        "data-repo-id": "R_kgDOJeijAw",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJeijA84CWPod",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
       
