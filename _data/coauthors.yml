@@ -1,10 +1,10 @@
 "Campello":
   - firstname: ["Ricardo", "Ricardo J. G. B.", "R."]
-    url: https://scholar.google.com.br/citations?user=jh1yfPIAAAAJ&hl=pt-BR
+    url: https://scholar.google.com.br/citations?user=jh1yfPIAAAAJ&hl=en
 
 "Costa":
   - firstname: ["Ivan", "Ivan G.", "I.", "I. G.", "Ivan Gesteira"]
-    url: https://scholar.google.com.br/citations?user=4b3dIOsAAAAJ&hl=pt-BR
+    url: https://scholar.google.com.br/citations?user=4b3dIOsAAAAJ&hl=en
 
 "Jaskowiak":
   - firstname: ["Pablo Andretta", "Pablo A", "Pablo A.", "P. A."]
@@ -13,3 +13,11 @@
 "Birken":
   - firstname: ["Michael"]
     url: https://meatfighter.com/
+
+"Sander":
+  - firstname: ["Jorg", "Jörg"]
+    url: https://scholar.google.com/citations?user=QzFTFLEAAAAJ&hl=en
+
+"Moulavi":
+  - firstname: ["Davoud", "D.", "D"]
+    url: https://scholar.google.com/citations?user=VoJmF8QAAAAJ&hl=en

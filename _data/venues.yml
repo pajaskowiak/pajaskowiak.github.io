@@ -1,6 +1,47 @@
-"BMC Bioinformatics":
+"BMC Bioinform":
   url: https://bmcbioinformatics.biomedcentral.com/
-  color: "#00369f"
 
 "IEEE TCBB":
   url: https://www.computer.org/csdl/journal/tb
+
+"Neurocomputing":
+  url: https://www.sciencedirect.com/journal/neurocomputing
+
+"COBEM":
+  url: https://abcm.org.br/pb/eventos-regulares-abcm
+  color: "#00369f"
+
+"PLURIS":
+  url: https://hdl.handle.net/1822/65564
+  color: "#00369f"
+
+"Methods":
+  url: https://www.sciencedirect.com/journal/methods
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#FF0000"
+
+"CBIC":
+  url: https://sbic.org.br/
+  color: "#00369f"
+
+"SBGAMES":
+  url: https://www.sbgames.org/
+  color: "#00369f"
+
+"REIC":
+  url: https://sol.sbc.org.br/journals/index.php/reic/about
+
+"ENIAC":
+  url: https://sol.sbc.org.br/index.php/eniac/index
+  color: "#00369f"
+
+"SSDBM":
+  url: https://ssdbm.org/
+  color: "#00369f"
+
+"SIAM SDM":
+  url: https://epubs.siam.org/doi/book/10.1137/1.9781611973440
+  color: "#00369f"
+

@@ -154,6 +154,12 @@
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.doi %}
+          <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          {%- endif %}
+          {%- if entry.url %}
+          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+          {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
@@ -188,7 +194,7 @@
           {% if site.badges %}
           <div class="badges">
             {%- if site.badges.altmetric_badge %}
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="0" data-badge-type="2" data-badge-popover="right"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
@@ -201,7 +207,7 @@
                 data-isbn="{{ entry.isbn }}"
               {% endif %}
               ></span>
-            {%- endif %}
+            {%- endif %}                    
             {%- if site.badges.dimensions_badge %}
               <span class="__dimensions_badge_embed__"
               {% if entry.doi %}
@@ -214,7 +220,7 @@
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
           </div>
-          {%- endif %}
+          {%- endif %}          
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
