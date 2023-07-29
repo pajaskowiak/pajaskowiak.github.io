@@ -2,17 +2,18 @@
 layout: page
 permalink: /students/
 title: students
-description: Orientações em concluídas e em andamento.
+description: student supervision.
 nav: true
 nav_order: 6
 ---
 
 <style>body {text-align: justify}</style>
 
+Current and former students are listed below. 
 
- Orientações de MS, IC e TCC são listadas abaixo. Se você possui interesse em realizar Mestrado (MS), Iniciação Científica (IC) ou Trabalho de Conclusão de curso (TCC) sob minha orientação entre em contato.
+*Caso tenha interesse em relizar TCC/IC comigo, entre em contato via email ou pessoalmente.*
 
-<strong>Orientações em andamento</strong>
+<strong>Current Students</strong>
 
 - Fabiana Seidel (MS - PPGESE)
 - Milena Reginato Marcondes (MS/Coorientador - POSCOMP/UFABC)
@@ -22,7 +23,7 @@ nav_order: 6
 - Lara Maria Brito (TCC)
 - Vitor Sorpile (TCC)
 
-<strong>Orientações concluídas</strong>
+<strong>Former students</strong>
 
 - 2023 - Luiz Henrique Buzzi (MS - PPGESE)
 - 2022 - <a href="https://repositorio.ufsc.br/handle/123456789/237501">Jesuino Vieira Filho (TCC)</a>
