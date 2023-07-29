@@ -18,9 +18,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Clustering Validation | Pablo  Andretta Jaskowiak</title>
+    <title>vpn ufsc | Pablo  Andretta Jaskowiak</title>
     <meta name="author" content="Pablo  Andretta Jaskowiak">
-    <meta name="description" content="how to select clustering results?">
+    <meta name="description" content="configuração vpn ufsc no fedora">
     <meta name="keywords" content="cluster, cluster analysis, clustering">
 
 
@@ -46,7 +46,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/projects/cvi/">
+    <link rel="canonical" href="http://localhost:4000/blog/2023/vpn/">
 
     <!-- Dark Mode -->
     
@@ -85,8 +85,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Other pages -->
@@ -136,20 +136,75 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- page.html -->
-        <div class="post">
+        <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Clustering Validation</h1>
-            <p class="post-description">how to select clustering results?</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>Soon.</p>
+  <header class="post-header">
+    <h1 class="post-title">vpn ufsc</h1>
+    <p class="post-meta">July 28, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/vpn">
+          <i class="fas fa-hashtag fa-sm"></i> vpn</a>  
+          <a href="/blog/tag/ufsc">
+          <i class="fas fa-hashtag fa-sm"></i> ufsc</a>  
+          <a href="/blog/tag/fedora">
+          <i class="fas fa-hashtag fa-sm"></i> fedora</a>  
+          
+        ·  
+        <a href="/blog/category/infrastructure">
+          <i class="fas fa-tag fa-sm"></i> infrastructure</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <style>body {text-align: justify}</style>
+
+<p>Para configurar a VPN da UFSC no Fedora, os pacotes a seguir devem ser instalados:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf install strongswan
+sudo dnf install NetworkManager-strongswan NetworkManager-strongswan-gnome
+</code></pre></div></div>
+
+<p>O resto segue o mesmo to tutorial da UFSC. Adicionar a conexão IPsec/IKEv2 (strongswan)</p>
+
+
+    </div>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "pajaskowiak/pajaskowiak.github.io",
+        "data-repo-id": "R_kgDOJeijAw",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJeijA84CWPod",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
+</div>
 
       
     </div>
