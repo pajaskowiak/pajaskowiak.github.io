@@ -17,7 +17,7 @@ Current and former students are listed below.
 
 - Fabiana Seidel (MS - PPGESE)
 - Milena Reginato Marcondes (MS/Coorientador - POSCOMP/UFABC)
-- Arthur Miguel Pereira Gabardo (IC)
+- Arthur Miguel Pereira Gabardo (IC / TCC)
 - Ítalo Coelho (TCC)
 - Adler Soster (TCC)
 - Lara Maria Brito (TCC)
@@ -25,6 +25,7 @@ Current and former students are listed below.
 
 <strong>Former students</strong>
 
+- 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/248201">Henrique Maiochi (TCC)</a>
 - 2023 - Luiz Henrique Buzzi (MS - PPGESE)
 - 2022 - <a href="https://repositorio.ufsc.br/handle/123456789/237501">Jesuino Vieira Filho (TCC)</a>
 - 2022 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/992268">Arthur Miguel Pereira Gabardo (IC)</a>
