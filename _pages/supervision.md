@@ -11,33 +11,43 @@ nav_order: 6
 
 Current and former students are listed below. 
 
-*Caso tenha interesse em relizar TCC/IC comigo, entre em contato via email ou pessoalmente.*
+*Caso tenha interesse em relizar Mestrado, TCC ou IC comigo, entre em contato via email ou pessoalmente.*
 
 <strong>Current Students</strong>
 
-- Fabiana Seidel (MS - PPGESE)
-- Milena Reginato Marcondes (MS/Coorientador - POSCOMP/UFABC)
+- Leonardo Bortoni (MS - UFSC/PPGESE)
+- Antoniel Stefaniak (MS - UFSC/PPGESE/Co-advisor)
+- Fabiana Seidel (MS - UFSC/PPGESE)
+- Milena Reginato Marcondes (MS - UFABC/POSCOMP/Co-advisor)
 - Arthur Miguel Pereira Gabardo (IC / TCC)
+- Andressa Delfino (IC)
+- Artur Frederico Heiber (IC)
+- Guilherme Arthur Allebrandt (IC) 
+- Lucca Roncador Lucheti (IC)
 - Ítalo Coelho (TCC)
+- Renan Sakamoto (TCC)
 - Adler Soster (TCC)
 - Lara Maria Brito (TCC)
 - Vitor Sorpile (TCC)
 
 <strong>Former students</strong>
 
+- 2023 - <a href="https://repositorio.ufba.br/bitstream/ri/38590/1/Dissertacao_mestrado_Leonardo_versao_final.pdf">Leonardo Rodrigues Ribeiro (MS - UFBA/PGCOMP/Co-advisor)</a>
 - 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/248201">Henrique Maiochi (TCC)</a>
-- 2023 - Luiz Henrique Buzzi (MS - PPGESE)
+- 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/249859">Luiz Henrique Buzzi (MS - UFSC/PPGESE)</a>
 - 2022 - <a href="https://repositorio.ufsc.br/handle/123456789/237501">Jesuino Vieira Filho (TCC)</a>
 - 2022 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/992268">Arthur Miguel Pereira Gabardo (IC)</a>
 - 2022 - <a href="https://repositorio.ufsc.br/handle/123456789/237689">Juan Carlos Guerra (TCC)</a> 
 - 2021 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/912330">Ítalo Coelho (IC)</a>
-- 2021 - <a href="https://repositorio.ufsc.br/handle/123456789/229356?show=full">Angelo A. Pelisson (MS - PPGESE)</a> 
+- 2021 - <a href="https://repositorio.ufsc.br/handle/123456789/229356?show=full">Angelo A. Pelisson (MS - UFSC/PPGESE)</a> 
 - 2021 - <a href="https://doi.org/10.5753/sbgames_estendido.2021.19664">Adler Soster (IC)</a>
 - 2021 - <a href="https://repositorio.ufsc.br/handle/123456789/223313">Luiza Moreira Bezerra (TCC)</a> 
 - 2020 - <a href="https://repositorio.ufsc.br/handle/123456789/218430">João Victor Fabri (TCC)</a>
-- 2019 - <a href="https://repositorio.ufsc.br/handle/123456789/215579">Felipe de Pontes Adachi (MS - PPGESE/Coorientador)</a>
+- 2019 - <a href="https://repositorio.ufsc.br/handle/123456789/215579">Felipe de Pontes Adachi (MS - UFSC/PPGESE/Co-advisor)</a>
 - 2018 - <a href="https://doi.org/10.5753/reic.2020.1766">Jesuino Vieira Filho (IC)</a>
 - 2018 - <a href="https://repositorio.ufsc.br/handle/123456789/188106">Felipe Soares Tiburcio (TCC)</a>
 - 2017 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/566107">João Victor Fabri (IC)</a>
 - 2017 - <a href="https://www.youtube.com/watch?v=uSVoXsSC96U&amp;ab_channel=VitorBotelhodeSouza">Vitor Botelho de Souza (IC)</a>
 - 2017 - <a href="https://repositorio.ufsc.br/handle/123456789/181813">Ana Paula Buono (TCC)</a>
+
+MS (Master's Degree), TCC (Undergraduate Final Project), IC (Undergraduate Research Project).
