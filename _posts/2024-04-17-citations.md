@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  1k Citations
+title:  1k citations
 date: 2024-04-17
 description: 1 Thousand Citations on Google Scholar
 tags: research citations
