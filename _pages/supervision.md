@@ -17,21 +17,22 @@ Current and former students are listed below.
 
 - Leonardo Bortoni (MS - UFSC/PPGESE)
 - Antoniel Stefaniak (MS - UFSC/PPGESE/Co-advisor)
-- Fabiana Seidel (MS - UFSC/PPGESE)
-- Milena Reginato Marcondes (MS - UFABC/POSCOMP/Co-advisor)
 - Arthur Miguel Pereira Gabardo (IC / TCC)
 - Andressa Delfino (IC)
-- Artur Frederico Heiber (IC)
 - Guilherme Arthur Allebrandt (IC) 
 - Lucca Roncador Lucheti (IC)
+- Arthur Torres Lavenere Machado (IC)
+- Eduardo Krzesinski (IC / Programa ROTA 2030)
+- Leonardo Tetsuya Tsukada (IC / Programa ROTA 2030)
 - Ítalo Coelho (TCC)
-- Renan Sakamoto (TCC)
 - Adler Soster (TCC)
-- Lara Maria Brito (TCC)
 - Vitor Sorpile (TCC)
 
 <strong>Former students</strong>
-
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/258957">Artur Frederico Heiber (IC)</a>
+- 2024 - <a href="">Milena Reginato Marcondes (MS - UFABC/POSCOMP/Co-advisor)</a>
+- 2024 - <a href="">Fabiana Seidel (MS - UFSC/PPGESE)</a>
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/255785">Renan Sakamoto (TCC)</a>
 - 2023 - <a href="https://repositorio.ufba.br/bitstream/ri/38590/1/Dissertacao_mestrado_Leonardo_versao_final.pdf">Leonardo Rodrigues Ribeiro (MS - UFBA/PGCOMP/Co-advisor)</a>
 - 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/248201">Henrique Maiochi (TCC)</a>
 - 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/249859">Luiz Henrique Buzzi (MS - UFSC/PPGESE)</a>
