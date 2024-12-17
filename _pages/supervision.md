@@ -17,18 +17,19 @@ Current and former students are listed below.
 
 - Leonardo Bortoni (MS - UFSC/PPGESE)
 - Antoniel Stefaniak (MS - UFSC/PPGESE/Co-advisor)
-- Arthur Miguel Pereira Gabardo (IC / TCC)
 - Andressa Delfino (IC)
-- Guilherme Arthur Allebrandt (IC) 
-- Lucca Roncador Lucheti (IC)
 - Arthur Torres Lavenere Machado (IC)
 - Eduardo Krzesinski (IC / Programa ROTA 2030)
 - Leonardo Tetsuya Tsukada (IC / Programa ROTA 2030)
-- Ítalo Coelho (TCC)
-- Adler Soster (TCC)
-- Vitor Sorpile (TCC)
+
 
 <strong>Former students</strong>
+- 2024 - Arthur Miguel Pereira Gabardo (IC / TCC)
+- 2024 - Ítalo Coelho (TCC)
+- 2024 - Adler Soster (TCC)
+- 2024 - Vitor Sorpile (TCC)
+- 2024 - Guilherme Arthur Allebrandt (IC) 
+- 2024 - Lucca Roncador Lucheti (IC)
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/258957">Artur Frederico Heiber (IC)</a>
 - 2024 - <a href="">Milena Reginato Marcondes (MS - UFABC/POSCOMP/Co-advisor)</a>
 - 2024 - <a href="">Fabiana Seidel (MS - UFSC/PPGESE)</a>
