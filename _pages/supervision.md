@@ -24,10 +24,10 @@ Current and former students are listed below.
 
 
 <strong>Former students</strong>
-- 2024 - Arthur Miguel Pereira Gabardo (IC / TCC)
-- 2024 - Ítalo Coelho (TCC)
-- 2024 - Adler Soster (TCC)
-- 2024 - Vitor Sorpile (TCC)
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262172">Arthur Miguel Pereira Gabardo (IC / TCC)</a>
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262191"> Ítalo Coelho (TCC) </a>	
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262025">Adler Soster (TCC)</a>
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/261979">Vitor Sorpile (TCC)</a>
 - 2024 - Guilherme Arthur Allebrandt (IC) 
 - 2024 - Lucca Roncador Lucheti (IC)
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/258957">Artur Frederico Heiber (IC)</a>
