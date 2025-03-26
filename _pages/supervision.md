@@ -15,6 +15,8 @@ Current and former students are listed below.
 
 <strong>Current Students</strong>
 
+- Arthur Miguel Pereira Gabardo (MS - UFSC/PPGESE)
+- Juan Sebastián Fernández Sicardi (MS - UFSC/PPGESE)
 - Leonardo Bortoni (MS - UFSC/PPGESE)
 - Antoniel Stefaniak (MS - UFSC/PPGESE/Co-advisor)
 - Andressa Delfino (IC)
@@ -22,17 +24,16 @@ Current and former students are listed below.
 - Eduardo Krzesinski (IC / Programa ROTA 2030)
 - Leonardo Tetsuya Tsukada (IC / Programa ROTA 2030)
 
-
 <strong>Former students</strong>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262172">Arthur Miguel Pereira Gabardo (IC / TCC)</a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262191"> Ítalo Coelho (TCC) </a>	
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262025">Adler Soster (TCC)</a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/261979">Vitor Sorpile (TCC)</a>
-- 2024 - Guilherme Arthur Allebrandt (IC) 
-- 2024 - Lucca Roncador Lucheti (IC)
+- 2024 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/1242216">Guilherme Arthur Allebrandt (IC)  </a>
+- 2024 - <a href="https://pibic.sistemas.ufsc.br/pub/verFormulario/1241850">Lucca Roncador Lucheti (IC) </a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/258957">Artur Frederico Heiber (IC)</a>
 - 2024 - <a href="">Milena Reginato Marcondes (MS - UFABC/POSCOMP/Co-advisor)</a>
-- 2024 - <a href="">Fabiana Seidel (MS - UFSC/PPGESE)</a>
+- 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/263522">Fabiana Seidel (MS - UFSC/PPGESE)</a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/255785">Renan Sakamoto (TCC)</a>
 - 2023 - <a href="https://repositorio.ufba.br/bitstream/ri/38590/1/Dissertacao_mestrado_Leonardo_versao_final.pdf">Leonardo Rodrigues Ribeiro (MS - UFBA/PGCOMP/Co-advisor)</a>
 - 2023 - <a href="https://repositorio.ufsc.br/handle/123456789/248201">Henrique Maiochi (TCC)</a>
