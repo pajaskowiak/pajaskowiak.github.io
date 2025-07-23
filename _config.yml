@@ -226,7 +226,7 @@ plugins:
   - jemoji
 
 # Sitemap settings
-defaults:
+defaults: 
   - scope:
       path: "assets"
     values:
