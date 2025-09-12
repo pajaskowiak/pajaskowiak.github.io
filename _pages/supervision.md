@@ -18,13 +18,18 @@ Current and former students are listed below.
 - Arthur Miguel Pereira Gabardo (MS - UFSC/PPGESE)
 - Juan Sebastián Fernández Sicardi (MS - UFSC/PPGESE)
 - Leonardo Bortoni (MS - UFSC/PPGESE)
+- Linda Crystal Ochoa Guerrero (MS - UFSC/PPGESE)
 - Antoniel Stefaniak (MS - UFSC/PPGESE/Co-advisor)
 - Andressa Delfino (IC)
-- Arthur Torres Lavenere Machado (IC)
 - Eduardo Krzesinski (IC / Programa ROTA 2030)
+- Eduardo Schroeder Dias (IC / PIBIC)
 - Leonardo Tetsuya Tsukada (IC / Programa ROTA 2030)
+- Luana Rathunde Sandler (TCC)
+- Lucas Dantas Igarashi (TCC)
 
 <strong>Former students</strong>
+- 2025 - <a href="">Carlos Eduardo Bibow Corrêa (MS - PosECM/UFSC/Co-advisor)</a>
+- 2025 - <a href="">Arthur Torres Lavenere Machado (IC)</a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262172">Arthur Miguel Pereira Gabardo (IC / TCC)</a>
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262191"> Ítalo Coelho (TCC) </a>	
 - 2024 - <a href="https://repositorio.ufsc.br/handle/123456789/262025">Adler Soster (TCC)</a>
