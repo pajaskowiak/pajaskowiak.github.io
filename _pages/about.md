@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 260/Bloco U/UFSC</p>
-    <p>Rua Dona Francisca, 8300</p>
+    <p>R. Dona Francisca, 8300</p>
     <p>Joinville, SC, Brazil</p>
 
 news: false  # includes a list of news items
