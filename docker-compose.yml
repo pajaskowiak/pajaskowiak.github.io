@@ -1,12 +1,12 @@
 version: "3"
-# this file uses prebuilt image in dockerhub
 services:
   jekyll:
     image: amirpourmand/al-folio
     container_name: al-folio-website
-    command: bash -c "
-      rm -f Gemfile.lock
-      && bundler exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"
+    # We removed 'rm -f Gemfile.lock' so the gems stay installed
+    command: >
+      bash -c "bundle install && 
+               bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload"
     ports:
       - 8080:8080
     volumes:
