@@ -25,3 +25,5 @@ I've been serving as reviewer for several journals and conferences. Here is a no
 - IJCNN (International Joint Conference on Neural Networks) --- 2018, 2020, 2021, 2023
 - IEEE LA-CCI (IEEE Latin American Conference on Computational Intelligence) --- 2023
 - CBIC (Brazilian Conference on Computational Intelligence) --- 2021, 2023
+- BRACIS (Brazilian Conference on Intelligent Systems) --- 2026
+- ENIAC - (Encontro Nacional de Inteligência Artificial e Computacional) --- 2026
