@@ -18,10 +18,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>machine learning | Pablo  Andretta Jaskowiak</title>
+    <title>Clustering Validation with AUPRC | Pablo  Andretta Jaskowiak</title>
     <meta name="author" content="Pablo  Andretta Jaskowiak">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="paper accepted at SISAP">
     <meta name="keywords" content="cluster, cluster analysis, clustering">
 
 
@@ -47,7 +46,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://pajaskowiak.github.io/blog/tag/machine-learning/">
+    <link rel="canonical" href="https://pajaskowiak.github.io/blog/2026/sisap/">
 
     <!-- Dark Mode -->
     
@@ -137,42 +136,77 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> machine learning </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Clustering Validation with AUPRC</h1>
+    <p class="post-meta">August 10, 2026</p>
+    <p class="post-tags">
+      <a href="/blog/2026"> <i class="fas fa-calendar fa-sm"></i> 2026 </a>
+        ·  
+        <a href="/blog/tag/research">
+          <i class="fas fa-hashtag fa-sm"></i> research</a>  
+          <a href="/blog/tag/machine-learning">
+          <i class="fas fa-hashtag fa-sm"></i> machine learning</a>  
+          <a href="/blog/tag/sisap">
+          <i class="fas fa-hashtag fa-sm"></i> sisap</a>  
+          <a href="/blog/tag/clustering">
+          <i class="fas fa-hashtag fa-sm"></i> clustering</a>  
+          <a href="/blog/tag/auprc">
+          <i class="fas fa-hashtag fa-sm"></i> auprc</a>  
+          
+        ·  
+        <a href="/blog/category/research">
+          <i class="fas fa-tag fa-sm"></i> research</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Aug 10, 2026</th>
-          <td>
-              <a class="post-link" href="/blog/2026/eniac/">Foundation Models for Zero-Shot Water Demand</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Aug 10, 2026</th>
-          <td>
-              <a class="post-link" href="/blog/2026/sisap/">Clustering Validation with AUPRC</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jul 8, 2025</th>
-          <td>
-              <a class="post-link" href="/blog/2025/bracis/">Highway to...</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <div id="markdown-content">
+      <style>body {text-align: justify}</style>
 
+<p>Our paper, “Clustering Validation with The Area Under Precision-Recall Curve,” co-authored with (Ivan Gesteira Costa)[https://www.costalab.org], has been accepted at the (19th International Conference on Similarity Search and Applications (SISAP))[https://www.sisap.org/2026/]. The conference will be held in Brno, Czech Republic, from October 14 to 16, 2026.</p>
+
+<p>The study investigates the use of the Area Under the Precision-Recall Curve (AUPRC) and related metrics for relative clustering validation. While the Area Under the ROC Curve for Clustering (AUCC) laid important groundwork, it can be misleading in scenarios characterized by significant cluster size imbalance. Our findings demonstrate that AUPRC is not only appropriate for clustering validation but should be preferred in these unbalanced scenarios, advancing the development of a unified performance evaluation framework for both supervised and unsupervised learning models.</p>
+
+<p>This research was carried out during my period as a visiting scholar at RWTH Aachen University. With thanks to the German Academic Exchange Service (DAAD) for financial support under the Research Stays for University Academics and Scientists 2022 Program, Grant #91835520.</p>
+
+<p>As soon as published, the paper will be linked at the <a href="https://pajaskowiak.github.io/publications/">Publications</a> page.</p>
+
+
+    </div>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "pajaskowiak/pajaskowiak.github.io",
+        "data-repo-id": "R_kgDOJeijAw",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOJeijA84CWPod",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
       
