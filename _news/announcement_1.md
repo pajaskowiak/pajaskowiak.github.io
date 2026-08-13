@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<div style="text-align: left"> matlab source code for dbcv is now available. </div>
+<div style="text-align: left"> Matlab source code for DBCV is now available. </div>
