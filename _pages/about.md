@@ -6,7 +6,7 @@ subtitle: <a href='http://ufsc.br'>Federal University of Santa Catarina</a>, Ass
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 260/Bloco U/UFSC</p>
