@@ -15,12 +15,16 @@ Current and former students are listed below.
 
 <strong>Current Students</strong>
 
+- Luana Rathunde Sandler (MS - UFSC/PPGESE - Programa MOVER)
 - Arthur Miguel Pereira Gabardo (MS - UFSC/PPGESE)
 - Linda Crystal Ochoa Guerrero (MS - UFSC/PPGESE)
-- Eduardo Schroeder Dias (IC / PIBIC)
+- Wagner Barbosa (IC/PIBIC)
 - Lucas Dantas Igarashi (TCC)
+- Leonardo Tetsuya Tsukada (TCC)
+
 
 <strong>Former students</strong>
+- 2026 - Eduardo Schroeder Dias (IC / PIBIC)
 - 2026 - <a href="https://repositorio.ufsc.br/handle/123456789/274049">Luana Rathunde Sandler (TCC)</a>
 - 2026 - Leonardo Bortoni (MS - UFSC/PPGESE)
 - 2025 - Eduardo Krzesinski (IC / Programa ROTA 2030)
