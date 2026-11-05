@@ -18,9 +18,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>tetris &amp; ai | Pablo  Andretta Jaskowiak</title>
+    <title>High-Performance Forging Dies | Pablo  Andretta Jaskowiak</title>
     <meta name="author" content="Pablo  Andretta Jaskowiak">
-    <meta name="description" content="exploring ai agents to play tetris">
+    <meta name="description" content="Computational analysis, instrumentation and artificial intelligence for condition monitoring of hot-forging dies.">
     <meta name="keywords" content="cluster, cluster analysis, clustering">
 
 
@@ -46,7 +46,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://pajaskowiak.github.io/projects/tetris_project/">
+    <link rel="canonical" href="https://pajaskowiak.github.io/projects/forjamento/">
 
     <!-- Dark Mode -->
     
@@ -111,6 +111,83 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/students/">students</a>
               </li>
+<!-- Language switch (Google Translate) -->
+<li class="nav-item notranslate" translate="no">
+  <a class="nav-link" id="lang-toggle" href="#" title="Português">🇧🇷</a>
+</li>
+
+<div id="google_translate_element" style="display:none"></div>
+<style>
+  .goog-te-banner-frame, .skiptranslate iframe { display: none !important; }
+  body { top: 0 !important; }
+</style>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', includedLanguages: 'pt,en', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+
+  (function () {
+    var btn = document.getElementById('lang-toggle');
+
+    function isPt() {
+      return /(^|;\s*)googtrans=\/(en|auto)\/pt/.test(document.cookie);
+    }
+
+    function clearCookie() {
+      var host = location.hostname, parts = host.split('.');
+      var domains = [null, host, '.' + host];
+      if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+      domains.forEach(function (d) {
+        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/' +
+          (d ? '; domain=' + d : '');
+      });
+    }
+
+    // manda o widget do Google traduzir, sem recarregar a página
+    function trigger(lang) {
+      var c = document.querySelector('select.goog-te-combo');
+      if (!c) return false;
+      c.value = lang;
+      c.dispatchEvent(new Event('change'));
+      return true;
+    }
+
+    function paint() {
+      btn.textContent = isPt() ? '🇬🇧' : '🇧🇷';
+      btn.title = isPt() ? 'English' : 'Português';
+    }
+
+    // ao carregar: se o idioma é PT mas a página não foi traduzida, força
+    if (isPt()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries++;
+        var translated = document.documentElement.classList.contains('translated-ltr');
+        if (translated || tries > 50) return clearInterval(timer);
+        if (trigger('pt')) { /* continua checando até a classe aparecer */ }
+      }, 200);
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (isPt()) {
+        // voltar ao inglês: limpa tudo e recarrega (jeito mais confiável)
+        clearCookie();
+        location.reload();
+      } else {
+        document.cookie = 'googtrans=/en/pt; path=/';
+        if (!trigger('pt')) location.reload();
+        paint();
+      }
+    });
+
+    paint();
+  })();
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -140,14 +217,58 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">tetris &amp; ai</h1>
-            <p class="post-description">exploring ai agents to play tetris</p>
+            <h1 class="post-title">High-Performance Forging Dies</h1>
+            <p class="post-description">Computational analysis, instrumentation and artificial intelligence for condition monitoring of hot-forging dies.</p>
           </header>
 
           <article>
-            <p>This project aims to explore artificial intelligence in Tetris gameplay.</p>
+            <style>
+.post article p,
+.post article li,
+.post article blockquote {
+  text-align: justify;
+  hyphens: auto;
+}
+</style>
 
-<p>More to come soon.</p>
+<div class="row text-center mb-4">
+  <div class="col-6 col-md-3 mb-3">
+    <div class="card h-100"><div class="card-body">
+      <h4 class="mb-1">R$ 523,908</h4>
+      <small class="text-muted">Total funding</small>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3 mb-3">
+    <div class="card h-100"><div class="card-body">
+      <h4 class="mb-1">MOVER - FUNDEP</h4>
+      <small class="text-muted">Forging Tools call</small>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3 mb-3">
+    <div class="card h-100"><div class="card-body">
+      <h4 class="mb-1">26 months</h4>
+      <small class="text-muted">April 2024 – June 2026</small>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3 mb-3">
+    <div class="card h-100"><div class="card-body">
+      <h4 class="mb-1">6 partners</h4>
+      <small class="text-muted">Academia and industry</small>
+    </div></div>
+  </div>
+</div>
+
+<p>Hot-forging dies are subjected to high mechanical stresses at elevated temperatures, and may degrade within days of operation due to wear and thermal fatigue. The resulting maintenance stoppages represent a significant share of production costs. This project integrates materials selection, thermochemical and surface treatments, coatings and machining, while the UFSC team addresses the structural analysis and condition monitoring of the die through numerical simulation, embedded sensing and artificial intelligence.</p>
+
+<h3 id="funding-and-partners">Funding and Partners</h3>
+
+<p>The project was funded under the <strong>Rota 2030</strong> program (Forging Tools call) with a total budget of <strong>R$ 523,908.00</strong> allocated for UFSC, of which R$ 363,908.00 correspond to operating expenses and R$ 160,000.00 to equipment. Funds were administered by <strong>FEESC</strong>. UFSC contributed in-kind with its manufacturing, product development, CAD and CAE laboratories. The project builds upon a previous collaboration (2021–2023) on aluminum injection tooling, involving UCS, SENAI and UDESC.</p>
+
+<p><strong>Toyota</strong> and <strong>Zen</strong> participated as industry partners, with validation planned on their production dies.</p>
+
+<h3 id="team">Team</h3>
+
+<p>Coordinator: Prof. Carlos Mauricio Sacchelli (CTJ). Faculty: Lucas Weihmann, Marcos Alves Rabelo, Modesto Hurtado Ferrer, Pablo Andretta Jaskowiak, Sérgio Junichi Idehara, Thiago Pontin Tancredi and Tiago Vieira da Cunha, together with undergraduate students and technical staff of the Joinville Technological Center (CTJ).</p>
 
           </article>
 
@@ -159,7 +280,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Tradução automática para PT-BR por Google Tradutor.
 
       </div>
     </footer>

@@ -112,6 +112,83 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/students/">students</a>
               </li>
+<!-- Language switch (Google Translate) -->
+<li class="nav-item notranslate" translate="no">
+  <a class="nav-link" id="lang-toggle" href="#" title="Português">🇧🇷</a>
+</li>
+
+<div id="google_translate_element" style="display:none"></div>
+<style>
+  .goog-te-banner-frame, .skiptranslate iframe { display: none !important; }
+  body { top: 0 !important; }
+</style>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', includedLanguages: 'pt,en', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+
+  (function () {
+    var btn = document.getElementById('lang-toggle');
+
+    function isPt() {
+      return /(^|;\s*)googtrans=\/(en|auto)\/pt/.test(document.cookie);
+    }
+
+    function clearCookie() {
+      var host = location.hostname, parts = host.split('.');
+      var domains = [null, host, '.' + host];
+      if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+      domains.forEach(function (d) {
+        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/' +
+          (d ? '; domain=' + d : '');
+      });
+    }
+
+    // manda o widget do Google traduzir, sem recarregar a página
+    function trigger(lang) {
+      var c = document.querySelector('select.goog-te-combo');
+      if (!c) return false;
+      c.value = lang;
+      c.dispatchEvent(new Event('change'));
+      return true;
+    }
+
+    function paint() {
+      btn.textContent = isPt() ? '🇬🇧' : '🇧🇷';
+      btn.title = isPt() ? 'English' : 'Português';
+    }
+
+    // ao carregar: se o idioma é PT mas a página não foi traduzida, força
+    if (isPt()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries++;
+        var translated = document.documentElement.classList.contains('translated-ltr');
+        if (translated || tries > 50) return clearInterval(timer);
+        if (trigger('pt')) { /* continua checando até a classe aparecer */ }
+      }, 200);
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (isPt()) {
+        // voltar ao inglês: limpa tudo e recarrega (jeito mais confiável)
+        clearCookie();
+        location.reload();
+      } else {
+        document.cookie = 'googtrans=/en/pt; path=/';
+        if (!trigger('pt')) location.reload();
+        paint();
+      }
+    });
+
+    paint();
+  })();
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -516,7 +593,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Tradução automática para PT-BR por Google Tradutor.
 
       </div>
     </footer>

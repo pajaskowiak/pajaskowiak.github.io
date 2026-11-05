@@ -111,6 +111,83 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/students/">students</a>
               </li>
+<!-- Language switch (Google Translate) -->
+<li class="nav-item notranslate" translate="no">
+  <a class="nav-link" id="lang-toggle" href="#" title="Português">🇧🇷</a>
+</li>
+
+<div id="google_translate_element" style="display:none"></div>
+<style>
+  .goog-te-banner-frame, .skiptranslate iframe { display: none !important; }
+  body { top: 0 !important; }
+</style>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', includedLanguages: 'pt,en', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+
+  (function () {
+    var btn = document.getElementById('lang-toggle');
+
+    function isPt() {
+      return /(^|;\s*)googtrans=\/(en|auto)\/pt/.test(document.cookie);
+    }
+
+    function clearCookie() {
+      var host = location.hostname, parts = host.split('.');
+      var domains = [null, host, '.' + host];
+      if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+      domains.forEach(function (d) {
+        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/' +
+          (d ? '; domain=' + d : '');
+      });
+    }
+
+    // manda o widget do Google traduzir, sem recarregar a página
+    function trigger(lang) {
+      var c = document.querySelector('select.goog-te-combo');
+      if (!c) return false;
+      c.value = lang;
+      c.dispatchEvent(new Event('change'));
+      return true;
+    }
+
+    function paint() {
+      btn.textContent = isPt() ? '🇬🇧' : '🇧🇷';
+      btn.title = isPt() ? 'English' : 'Português';
+    }
+
+    // ao carregar: se o idioma é PT mas a página não foi traduzida, força
+    if (isPt()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries++;
+        var translated = document.documentElement.classList.contains('translated-ltr');
+        if (translated || tries > 50) return clearInterval(timer);
+        if (trigger('pt')) { /* continua checando até a classe aparecer */ }
+      }, 200);
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (isPt()) {
+        // voltar ao inglês: limpa tudo e recarrega (jeito mais confiável)
+        clearCookie();
+        location.reload();
+      } else {
+        document.cookie = 'googtrans=/en/pt; path=/';
+        if (!trigger('pt')) location.reload();
+        paint();
+      }
+    });
+
+    paint();
+  })();
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -149,6 +226,81 @@
 <div class="publications">
   <h2 class="year">2026</h2>
   <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/bracis_2026-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/bracis_2026-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/bracis_2026-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/bracis_2026.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="bracis_2026.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="Sandler2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title"> Evaluation of Foundation Models for Water Demand Forecasting in a Zero-Shot Scenario</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Luana Rathunde Sandler, and <a href="https://scholar.google.com/citations?user=by6xRbkAAAAJ" rel="external nofollow noopener" target="_blank">Pablo Andretta Jaskowiak</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Anais do XXIII Encontro Nacional de Inteligência Artificial e Computacional</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          <a href="https://doi.org/10.5753/eniac.2026.30068" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+          <a href="https://sol.sbc.org.br/index.php/eniac/article/view/46996" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
+            <a href="/assets/pdf/poster_eniac_2026.png" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="0" data-badge-type="2" data-badge-popover="right" data-doi="10.5753/eniac.2026.30068"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.5753/eniac.2026.30068" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>          
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Sandler2026</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sandler, Luana Rathunde and Jaskowiak, Pablo Andretta}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{ Evaluation of Foundation Models for Water Demand Forecasting in a Zero-Shot Scenario}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Anais do XXIII Encontro Nacional de Inteligência Artificial e Computacional}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Cuiabá/MT}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{2763-9061}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2631--2642}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{SBC}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Porto Alegre, RS, Brasil}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.5753/eniac.2026.30068}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://sol.sbc.org.br/index.php/eniac/article/view/46996}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -3264,7 +3416,7 @@ squared errors (rRMSE) of 15.6% and 17.2% for 30-minute and 60-minute forecast h
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Tradução automática para PT-BR por Google Tradutor.
 
       </div>
     </footer>

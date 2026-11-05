@@ -20,7 +20,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>projects | Pablo  Andretta Jaskowiak</title>
     <meta name="author" content="Pablo  Andretta Jaskowiak">
-    <meta name="description" content="A growing collection of your cool projects.">
+    <meta name="description" content="Research and outreach projects I have participated in">
     <meta name="keywords" content="cluster, cluster analysis, clustering">
 
 
@@ -111,6 +111,83 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/students/">students</a>
               </li>
+<!-- Language switch (Google Translate) -->
+<li class="nav-item notranslate" translate="no">
+  <a class="nav-link" id="lang-toggle" href="#" title="Português">🇧🇷</a>
+</li>
+
+<div id="google_translate_element" style="display:none"></div>
+<style>
+  .goog-te-banner-frame, .skiptranslate iframe { display: none !important; }
+  body { top: 0 !important; }
+</style>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', includedLanguages: 'pt,en', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+
+  (function () {
+    var btn = document.getElementById('lang-toggle');
+
+    function isPt() {
+      return /(^|;\s*)googtrans=\/(en|auto)\/pt/.test(document.cookie);
+    }
+
+    function clearCookie() {
+      var host = location.hostname, parts = host.split('.');
+      var domains = [null, host, '.' + host];
+      if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+      domains.forEach(function (d) {
+        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/' +
+          (d ? '; domain=' + d : '');
+      });
+    }
+
+    // manda o widget do Google traduzir, sem recarregar a página
+    function trigger(lang) {
+      var c = document.querySelector('select.goog-te-combo');
+      if (!c) return false;
+      c.value = lang;
+      c.dispatchEvent(new Event('change'));
+      return true;
+    }
+
+    function paint() {
+      btn.textContent = isPt() ? '🇬🇧' : '🇧🇷';
+      btn.title = isPt() ? 'English' : 'Português';
+    }
+
+    // ao carregar: se o idioma é PT mas a página não foi traduzida, força
+    if (isPt()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries++;
+        var translated = document.documentElement.classList.contains('translated-ltr');
+        if (translated || tries > 50) return clearInterval(timer);
+        if (trigger('pt')) { /* continua checando até a classe aparecer */ }
+      }, 200);
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (isPt()) {
+        // voltar ao inglês: limpa tudo e recarrega (jeito mais confiável)
+        clearCookie();
+        location.reload();
+      } else {
+        document.cookie = 'googtrans=/en/pt; path=/';
+        if (!trigger('pt')) location.reload();
+        paint();
+      }
+    });
+
+    paint();
+  })();
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -141,90 +218,89 @@
 
           <header class="post-header">
             <h1 class="post-title">projects</h1>
-            <p class="post-description">A growing collection of your cool projects.</p>
+            <p class="post-description">Research and outreach projects I have participated in</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
+            <style>
+/* Desativa o masonry e usa uma grade CSS comum: cards da mesma linha têm a mesma altura */
+.projects .grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  height: auto !important;
+}
+.projects .grid-sizer { display: none !important; }
+.projects .grid-item {
+  position: static !important;
+  width: auto !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+.projects .grid-item > a { display: block; height: 100%; }
+.projects .card { height: 100%; }
+
+/* Imagens todas com a mesma proporção */
+.projects .card picture { display: block; }
+.projects .card img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Título menor e com a capitalização original */
+.projects .card-title.text-lowercase {
+  text-transform: none !important;
+  font-size: 1.35rem;
+}
+
+/* Descrição limitada a 3 linhas */
+.projects .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>
+
+<!-- pages/projects.md -->
 <div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">work</h2>
-  <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-1">
-<div class="card-item col">
-<a href="/projects/cvi/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+<!-- Display projects without categories --><!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/forjamento/">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/dataset_1-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/dataset_1-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/dataset_1-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/forge-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/forge-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/forge-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/dataset_1.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/forge.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">Clustering Validation</h3>
-            <p class="card-text">how to select clustering results?</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">High-Performance Forging Dies</h2>
+          <p class="card-text">Computational analysis, instrumentation and artificial intelligence for condition monitoring of hot-forging dies.</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-
-    </div>
-  </div>
-  <h2 class="category">work &amp; fun</h2>
-  <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-1">
-<div class="card-item col">
-<a href="/projects/tetris_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/tetris.gif-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/tetris.gif-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/tetris.gif-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/tetris.gif" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">tetris &amp; ai</h3>
-            <p class="card-text">exploring ai agents to play tetris</p>
-            <div class="row ml-1 mr-1 p-0"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    </div>
   </div>
 </div>
 
@@ -238,7 +314,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright 2026 Pablo  Andretta Jaskowiak. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Tradução automática para PT-BR por Google Tradutor.
 
       </div>
     </footer>
