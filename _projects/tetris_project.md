@@ -1,10 +1,11 @@
 ---
 layout: page
-title: tetris & ai
+title: Tetris & AI
 description: exploring ai agents to play tetris
 img: assets/img/tetris.gif
 importance: 2
 category: work & fun
+published: false
 ---
 
 This project aims to explore artificial intelligence in Tetris gameplay.

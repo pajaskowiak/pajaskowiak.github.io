@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Clustering Validation
-description: how to select clustering results?
-img: assets/img/dataset_1.png
+description: How to select clustering results?
+img: assets/img/clustering-validation-art.png
 importance: 1
 category: work
+published: false
 ---
 
 Soon.
